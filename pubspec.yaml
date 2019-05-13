@@ -1,13 +1,14 @@
 name: builder_static_text
 description: Simple way to add some static text into generated source files.
 version: 0.0.1
-author:
+author: Herbert Poul <herbert@poul.at>
 homepage: https://github.com/hpoul/builder_static_text
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  build: ^1.1.4
   source_gen: ^0.9.4+2
   flutter:
     sdk: flutter

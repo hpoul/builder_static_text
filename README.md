@@ -14,6 +14,14 @@ The only reason for it's existence is that
 
 ## Getting Started
 
+Add to `pubspec.yaml`
+
+```yaml
+dev_dependency:
+  builder_static_text: ^0.0.1
+
+```
+
 Create `build.yaml` and configure the builder:
 
 ```yaml
