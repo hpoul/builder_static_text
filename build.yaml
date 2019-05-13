@@ -1,0 +1,8 @@
+builders:
+  static_text:
+    import: 'package:builder_static_text/static_text_generator.dart'
+    builder_factories: ['staticTextBuilder']
+    build_extensions: {".dart": ["static_text.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
