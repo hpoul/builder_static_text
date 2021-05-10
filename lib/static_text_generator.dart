@@ -14,7 +14,7 @@ class StaticTextGenerator extends Generator {
 
 Builder staticTextBuilder(BuilderOptions options) => SharedPartBuilder(
       [
-        StaticTextGenerator(options.config['content'] as String ?? '// modify build.yaml to configure this text.'),
+        StaticTextGenerator(options.config['content'] as String? ?? '// modify build.yaml to configure this text.'),
       ],
       'static_text',
     );
